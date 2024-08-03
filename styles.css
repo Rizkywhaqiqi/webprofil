@@ -289,7 +289,7 @@ footer {
 }
 
 .btn-primary {
-    background-color: #00bcd4; /* Warna tombol sesuai tema */
+    background-color: #000000; /* Warna tombol sesuai tema */
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
@@ -299,5 +299,5 @@ footer {
 }
 
 .btn-primary:hover {
-    background-color: #0097a7; /* Warna tombol saat hover */
+    background-color: #000000; /* Warna tombol saat hover */
 }
