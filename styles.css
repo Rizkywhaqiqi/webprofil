@@ -1,0 +1,303 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background-color: #212121;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #333333;
+}
+/* Make the dropdown menu appear on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+.nav-link.active {
+    font-weight: bold;
+    color: #f0f0f0 !important; /* Ganti sesuai dengan warna aktif yang diinginkan */
+}
+
+
+#home {
+    background-color: #1e1e1e;
+    padding: 50px 0;
+}
+
+#about, #portfolio {
+    padding: 50px 0;
+}
+
+.card {
+    background-color: #1e1e1e;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.card img {
+    border-bottom: 1px solid #333;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Kontainer tombol sosial media */
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Gaya tombol sosial media */
+.social-media-links .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya khusus untuk setiap tombol */
+.social-media-links .btn-facebook {
+    background-color: #3b5998;
+}
+
+.social-media-links .btn-twitter {
+    background-color: #1da1f2;
+}
+
+.social-media-links .btn-linkedin {
+    background-color: #0077b5;
+}
+
+.social-media-links .btn-instagram {
+    background-color: #e4405f;
+}
+
+/* Efek hover untuk tombol sosial media */
+.social-media-links .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Ikon di dalam tombol */
+.social-media-links .btn i {
+    margin-right: 8px;
+}
+
+
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+/* Keahlian Section */
+#skills {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Jarak antara card */
+}
+
+.skill-card {
+    background-color: #222;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 20px); /* Atur lebar card untuk 3 kolom pada layar besar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: left; /* Rata kiri teks */
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.skill-card i {
+    color: #00bcd4; /* Warna ikon yang kontras */
+}
+
+@media (max-width: 768px) {
+    .skill-card {
+        flex: 1 1 calc(50% - 20px); /* 2 kolom pada layar sedang */
+    }
+}
+
+@media (max-width: 576px) {
+    .skill-card {
+        flex: 1 1 100%; /* 1 kolom pada layar kecil */
+    }
+}
+/* Keahlian Section */
+#skills {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Jarak antara card */
+}
+
+.skill-card {
+    background-color: #222;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 20px); /* Atur lebar card untuk 3 kolom pada layar besar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: left; /* Rata kiri teks */
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.skill-card i {
+    color: #00bcd4; /* Warna ikon yang kontras */
+}
+
+@media (max-width: 768px) {
+    .skill-card {
+        flex: 1 1 calc(50% - 20px); /* 2 kolom pada layar sedang */
+    }
+}
+
+@media (max-width: 576px) {
+    .skill-card {
+        flex: 1 1 100%; /* 1 kolom pada layar kecil */
+    }
+}
+/* Photo Portfolio Section */
+#photo-portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    opacity: 1;
+}
+
+.portfolio-overlay h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #000000; /* Warna tombol sesuai tema */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #000000; /* Warna tombol saat hover */
+}
+
+/* Wanna Collaborate Section */
+#collaboration {
+    padding: 50px 0;
+    background-color: #222; /* Warna latar belakang sesuai dengan tema */
+    color: white; /* Warna teks yang kontras */
+    border-radius: 10px;
+}
+
+#collaboration h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#collaboration p {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.btn-primary {
+    background-color: #00bcd4; /* Warna tombol sesuai tema */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0097a7; /* Warna tombol saat hover */
+}
