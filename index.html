@@ -28,9 +28,10 @@
                         Portofolio
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="portfolioDropdown">
+                        <li><a class="dropdown-item" href="#website-development">Website</a></li>
                         <li><a class="dropdown-item" href="#street-photography">Photo</a></li>
                         <li><a class="dropdown-item" href="#video-editing">Video </a></li>
-                        <li><a class="dropdown-item" href="#website-development">Website</a></li>
+                        
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -85,7 +86,42 @@
         <!-- Portfolio Section -->
         <section id="portfolio" class="my-5">
             <h2>Portofolio</h2>
-
+              <!-- Website Development -->
+            <div id="website-development" class="my-5">
+                <h3>Website</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/web/1.png" class="card-img-top" alt="Website 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Website Survei Kepuasan Masyarakat</h5>
+                                <p class="card-text">Website dibangun untuk mengelola SKM dan menghasilkan output IKM</p>
+                                <a href="https://rsudsmjamaludin.kayongutarakab.go.id/surveikm/" class="btn btn-dark">Visit Site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/web/2.png" class="card-img-top" alt="Website 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Website Pengaduan Masyarakat</h5>
+                                <p class="card-text">Website dibangun untuk mengelola keluhan dan saran </p>
+                                <a href="https://rsudsmjamaludin.kayongutarakab.go.id/pengaduan/" class="btn btn-dark">Visit Site</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="assets/web/3.png" class="card-img-top" alt="Website 2">
+                            <div class="card-body">
+                                <h5 class="card-title">frontend undangan sederhana</h5>
+                                <p class="card-text">frontend Website undangan sederhana</p>
+                                <a href="https://undangansederhana.netlify.app/" class="btn btn-dark">Visit Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- Street Photography -->
             <div id="street-photography" class="my-5">
                 <h3>Photo</h3>
@@ -189,43 +225,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Website Development -->
-            <div id="website-development" class="my-5">
-                <h3>Website</h3>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="assets/web/1.png" class="card-img-top" alt="Website 1">
-                            <div class="card-body">
-                                <h5 class="card-title">Website Survei Kepuasan Masyarakat</h5>
-                                <p class="card-text">Website dibangun untuk mengelola SKM dan menghasilkan output IKM</p>
-                                <a href="https://rsudsmjamaludin.kayongutarakab.go.id/surveikm/" class="btn btn-dark">Visit Site</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="assets/web/2.png" class="card-img-top" alt="Website 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Website Pengaduan Masyarakat</h5>
-                                <p class="card-text">Website dibangun untuk mengelola keluhan dan saran </p>
-                                <a href="https://rsudsmjamaludin.kayongutarakab.go.id/pengaduan/" class="btn btn-dark">Visit Site</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img src="assets/web/3.png" class="card-img-top" alt="Website 2">
-                            <div class="card-body">
-                                <h5 class="card-title">frontend undangan sederhana</h5>
-                                <p class="card-text">frontend Website undangan sederhana</p>
-                                <a href="https://undangansederhana.netlify.app/" class="btn btn-dark">Visit Site</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
         <!-- Skills Section -->
 <section id="skills" class="my-5">
@@ -235,6 +234,15 @@
 <div class="col-md-6">
     <h3>Hard Skills</h3>
     <div class="skills-container">
+        <div class="skill-card">
+            <i class="fas fa-laptop-code fa-3x mb-3"></i>
+            <h4>Website Development</h4>
+            <p><strong>Front-End Programming:</strong> Menguasai HTML, CSS, dan JavaScript.</p>
+            <p><strong>Frameworks dan Libraries:</strong> Pengalaman dengan Bootstrap.</p>
+            <p><strong>Back-End Programming:</strong> Kemampuan menggunakan PHP & Python</p>
+            <p><strong>Database Management:</strong> Pengetahuan dalam SQL  databases.</p>
+            <p><strong>API Development:</strong> Membangun dan mengintegrasikan API.</p>
+        </div>
         <div class="skill-card">
             <i class="fas fa-camera fa-3x mb-3"></i>
             <h4>Photography</h4>
@@ -257,15 +265,6 @@
             <p><strong>Format dan Resolusi:</strong> Mengetahui format video, resolusi, dan cara mengekspor dengan kualitas optimal.</p>
             <p><strong>Grafik dan Teks:</strong> Menambahkan teks dan grafik untuk informasi tambahan.</p>
             <p><strong>Manajemen Proyek:</strong> Mengelola file dan media dengan efisien.</p>
-        </div>
-        <div class="skill-card">
-            <i class="fas fa-laptop-code fa-3x mb-3"></i>
-            <h4>Website Development</h4>
-            <p><strong>Front-End Programming:</strong> Menguasai HTML, CSS, dan JavaScript.</p>
-            <p><strong>Frameworks dan Libraries:</strong> Pengalaman dengan Bootstrap.</p>
-            <p><strong>Back-End Programming:</strong> Kemampuan menggunakan PHP & Python</p>
-            <p><strong>Database Management:</strong> Pengetahuan dalam SQL  databases.</p>
-            <p><strong>API Development:</strong> Membangun dan mengintegrasikan API.</p>
         </div>
     </div>
 </div>
